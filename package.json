@@ -1,0 +1,20 @@
+{
+  "name": "qquce-reconstruction-lab",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent public-interface study with a working, source-tracked assessment engine",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs --background",
+    "stop": "node scripts/stop.mjs",
+    "build": "vite build app --outDir ../dist --emptyOutDir",
+    "preview": "node scripts/serve.mjs --production",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "validate:banks": "node scripts/validate-banks.mjs"
+  },
+  "dependencies": { "lucide": "1.73.0" },
+  "devDependencies": { "playwright": "1.65.1", "vite": "8.3.8" }
+}

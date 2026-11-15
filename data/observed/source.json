@@ -1,0 +1,27 @@
+{
+  "observedOn": "2026-11-15",
+  "site": "https://qquce.cn/",
+  "method": "Normal signed-out browser navigation, with all non-GET/HEAD requests blocked. No account, voucher, answer submission or report request.",
+  "permission": {
+    "basis": "Requester explicitly confirmed permission to publish original questions and rules in the public repository on 2026-11-15.",
+    "license": "Original rights retained; publication authorized by requester for this project. No additional sublicense implied."
+  },
+  "mbti": {
+    "page": "https://qquce.cn/mbti",
+    "resource": "https://qquce.cn/api/public/mbti-stage/type-test",
+    "resourceDiscovery": "GET automatically issued by the public page; not an endpoint scan.",
+    "file": "mbti-type-test.questions.json",
+    "sha256": "4b4cc89e7067976c2ddd613ce0bd162fbf2d7e7a8a0833008e1000b7b0f6aff6",
+    "observed": ["40 question texts", "question order and IDs", "two answer labels per question", "EI/SN/TF/JP dimension tags", "public first-question screen and navigation"],
+    "notVerified": ["server scoring weights", "tie handling", "server result profiles", "report text"],
+    "localScoring": "Independent equal-weight A/B tally, 10 items per dimension. A selects the first letter, B the second. Ties are shown as X. This is not a verified reconstruction of the server algorithm."
+  },
+  "catalog": {
+    "page": "https://qquce.cn/quiz",
+    "resource": "https://qquce.cn/api/public/assessments",
+    "file": "catalog.json",
+    "sha256": "dc68a0fca6d17d0d7fa0f734fd7cb1e0a5bfd1a4cb2f15827f59029643f10d9d",
+    "observed": ["9 public product names", "introductions", "categories", "displayed question counts and estimated durations"],
+    "notVerified": ["the 9 full question banks", "paid/voucher rules", "server-generated reports"]
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.runtime/
+.env
+.env.*
+!.env.example
+.DS_Store
+artifacts/
+private/
+*.sqlite
+*.sqlite-*
+*.db
+.tools/
+.craft-home/
+.codex/
+*.log
